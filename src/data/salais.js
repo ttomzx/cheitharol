@@ -8,7 +8,7 @@ export const SALAIS = [
     ancestor: 'Iputhou Pakhangba',
     dynastyRole: 'Sovereign Royal Dynasty of Kangleipak',
     description: 'The premier royal lineage founded by Nongda Lairen Pakhangba in 33 CE. The Ningthouja rulers unified all seven Salais under Kangla.',
-    notableMonarchs: ['Nongda Lairen Pakhangba', 'Kiyamba', 'Khagemba', 'Pamheiba', 'Bhagyachandra', 'Gambhir Singh', 'Bodhchandra Singh']
+    notableMonarchs: ['Nongda Lairen Pakhangba', 'Loiyumba', 'Kiyamba', 'Khagemba', 'Pamheiba', 'Bhagyachandra', 'Gambhir Singh', 'Bodhchandra Singh']
   },
   {
     id: 'luwang',
@@ -88,8 +88,8 @@ export const LINEAGE_TREE = [
   },
   {
     id: 'khui_yoi',
-    name: 'Khui Yoi Tompok (154–264 CE)',
-    meiteiName: 'ꯈꯨꯏ ꯌꯣꯏ ꯇꯣꯝꯄꯣꯛ',
+    name: 'Khuyoi Tompok (154–264 CE)',
+    meiteiName: 'ꯈꯨꯌꯣꯏ ꯇꯣꯝꯄꯣꯛ',
     role: '2nd Sovereign Ruler',
     children: ['taothingmang'],
   },
@@ -98,13 +98,34 @@ export const LINEAGE_TREE = [
     name: 'Taothingmang (264–364 CE)',
     meiteiName: 'ꯇꯥꯎꯊꯤꯡꯃꯥꯡ',
     role: '3rd Sovereign Ruler',
-    children: ['ancient_branch'],
+    children: ['naothingkhong'],
   },
   {
-    id: 'ancient_branch',
-    name: 'Medieval Transition Lineage',
-    meiteiName: 'ꯃꯌꯥꯏ ꯑꯣꯏꯕ ꯇꯥꯡꯀꯛ',
-    role: 'Kiyamba (1467) & Khagemba (1597)',
+    id: 'naothingkhong',
+    name: 'Naothingkhong (663–763 CE)',
+    meiteiName: 'ꯅꯥꯑꯣꯊꯤꯡꯈꯣꯡ',
+    role: 'Unifier of Valley & Hill Alliances',
+    children: ['loiyumba'],
+  },
+  {
+    id: 'loiyumba',
+    name: 'King Loiyumba (1074–1122 CE)',
+    meiteiName: 'ꯂꯣꯏꯌꯨꯃ꯭ꯕ',
+    role: 'Author of First Written Constitution (Loiyumpa Silyel)',
+    children: ['kiyamba'],
+  },
+  {
+    id: 'kiyamba',
+    name: 'Senbi Kiyamba (1467–1508 CE)',
+    meiteiName: 'ꯁꯦꯟꯕꯤ ꯀꯤꯌꯥꯝꯕ',
+    role: 'Conqueror of Kyang & Receiver of Lord Vishnu',
+    children: ['khagemba'],
+  },
+  {
+    id: 'khagemba',
+    name: 'Meidingu Khagemba (1597–1652 CE)',
+    meiteiName: 'ꯈꯥꯒꯦꯝꯕ',
+    role: 'Conqueror of Chinese & Introduced Firearms',
     children: ['pamheiba_branch'],
   },
   {
@@ -117,15 +138,15 @@ export const LINEAGE_TREE = [
   {
     id: 'bhagyachandra_branch',
     name: 'Rajarshi Bhagyachandra (1759–1798 CE)',
-    meiteiName: 'ꯔꯥꯖꯔꯁꯤ ꯚꯥꯒ꯭ꯌꯆꯟꯗ꯭ꯔ',
-    role: 'Saint-King & Cultural Architect',
+    meiteiName: 'ꯔꯥꯖꯔꯁꯤ ꯚꯥꯒ꯭qiyaꯆꯟꯗ꯭ꯔ',
+    role: 'Saint-King & Cultural Architect (Maha Raas Leela)',
     children: ['gambhir_branch', 'nara_branch'],
   },
   {
     id: 'gambhir_branch',
     name: 'Raja Gambhir Singh (1825–1834 CE)',
     meiteiName: 'ꯒꯝꯚꯤꯔ ꯁꯤꯡꯍ',
-    role: 'Liberator of Manipur',
+    role: 'Liberator of Manipur (Treaty of Yandabo)',
     children: ['chandrakirti_branch'],
   },
   {
@@ -144,9 +165,9 @@ export const LINEAGE_TREE = [
   },
   {
     id: 'kulachandra_branch',
-    name: 'Kulachandra & Prince Bir Tikendrajit (1891 CE)',
-    meiteiName: 'ꯀꯨꯂꯥꯆꯟꯗ꯭ꯔ ꯑꯃꯁꯨꯡ ꯕꯤꯔ ꯇꯤꯀꯦꯟꯗ꯭ꯔꯖꯤꯠ',
-    role: 'Patriots of 1891 War',
+    name: 'Kulachandra & Prince Bir Tikendrajit (1890–1891 CE)',
+    meiteiName: 'ꯀꯨꯂꥥꯆꯟꯗ꯭ꯔ ꯑꯃꯁꯨꯡ ꯕꯤꯔ ꯇꯤꯀꯦꯟꯗ꯭ꯔꯖꯤꯠ',
+    role: 'Patriots of 1891 Anglo-Manipur War',
     children: [],
   },
   {

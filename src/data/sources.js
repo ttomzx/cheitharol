@@ -8,7 +8,18 @@ export const SOURCES = [
     year: 'Continuous entries from 33 CE to 1955 CE',
     publisher: 'Manipuri Sahitya Parishad, Imphal',
     description: 'The definitive court chronicle of the Ningthouja kings recording monarchical accessions, military campaigns, natural phenomena, religious rituals, and diplomatic treaties.',
-    url: '#'
+    url: 'https://en.wikipedia.org/wiki/Cheitharol_Kumbaba'
+  },
+  {
+    id: 'wiki_ningthouja_kings',
+    title: 'List of Kings of the Ningthouja Dynasty',
+    meiteiTitle: 'ꯅꯤꯡꯊꯧꯖꯥ ꯅꯤꯡꯊꯧꯔꯣꯜ',
+    author: 'Wikipedia Historical Archives & Cheitharol Kumbaba References',
+    type: 'Encyclopedic Chronological Record',
+    year: 'Updated 2026',
+    publisher: 'Wikimedia Foundation',
+    description: 'Comprehensive historical catalog of all 66+ monarchs of the Ningthouja dynasty from Nongda Lairen Pakhangba (33 CE) to Bodhchandra Singh (1949 CE).',
+    url: 'https://en.wikipedia.org/wiki/List_of_kings_of_the_Ningthouja_dynasty'
   },
   {
     id: 'parratt_cheitharol',
@@ -66,7 +77,7 @@ export const SOURCES = [
     type: 'Primary Legal Document',
     year: '1947',
     publisher: 'State Printing Press, Imphal',
-    description: 'The historic constitutional framework promulgated by Maharaja Bodhchandra Singh instituting democratic governance based on universal adult franchise.',
+    description: 'The historic constitutional framework promulgated by Maharaja Bodhchandra Singh instituting democratic governance based on universal adult suffrage.',
     url: '#'
   },
   {

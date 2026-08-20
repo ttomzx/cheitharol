@@ -15,6 +15,21 @@ export const EVENTS = [
     sources: ['cheitharol_kumbaba', 'kamei_history']
   },
   {
+    id: 'evt-1110',
+    year: 1110,
+    dateStr: '1110 CE',
+    title: 'Enactment of Loiyumpa Silyel (First Written Constitution)',
+    meiteiTitle: 'ꯂꯣꯏꯌꯨꯝꯄ ꯁꯤꯂ꯭ꯌꯦꯜ ꯆꯠꯅꯍꯟꯕ',
+    category: 'Governance',
+    eraId: 'ancient',
+    kingId: 'loiyumba',
+    locationId: 'kangla',
+    summary: 'King Loiyumba promulgates the Loiyumpa Silyel, the first written constitution of Kangleipak.',
+    details: 'King Loiyumba (1074–1122 CE) codified the state administration, legal statutes, and specific economic/artistic duties for every clan lineage in Manipur. The Loiyumpa Silyel served as the fundamental law of Kangleipak for centuries.',
+    impact: 'Established rule of law, systematic clan occupations, and administrative governance.',
+    sources: ['cheitharol_kumbaba', 'kamei_history', 'jhalajit_history']
+  },
+  {
     id: 'evt-1470',
     year: 1470,
     dateStr: '1470 CE',
